@@ -41,9 +41,9 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-a{
-    text-decoration: overline;
-    color: #333;
+a {
+  text-decoration: overline;
+  color: #333;
 }
 h1 {
   text-align: center;
