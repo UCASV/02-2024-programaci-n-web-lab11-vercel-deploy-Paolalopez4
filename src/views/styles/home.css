@@ -13,13 +13,17 @@ body {
 
 /* Estilo único para h1 */
 h1 {
-  font-family: "Poppins", sans-serif;  /* Cambié la fuente para un estilo diferente */
+  font-family: "Poppins", sans-serif; /* Cambié la fuente para un estilo diferente */
   font-size: 3rem;
   color: #2c3e50; /* Color oscuro para un contraste más suave */
   text-transform: uppercase; /* Mayúsculas para darle un toque de énfasis */
   letter-spacing: 4px; /* Espaciado de letras para hacer que se vea más elegante */
   text-align: center;
-  background-image: linear-gradient(45deg, #ff6347, #ff1493); /* Degradado en diagonal */
+  background-image: linear-gradient(
+    45deg,
+    #ff6347,
+    #ff1493
+  ); /* Degradado en diagonal */
   -webkit-background-clip: text; /* Asegura que el degradado se aplique solo al texto */
   color: transparent; /* Color del texto transparente para usar el degradado */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar el texto */
@@ -46,7 +50,6 @@ h1:hover {
   transform: scale(1.1); /* Efecto de escalado al pasar el mouse */
   text-shadow: 0 4px 15px rgba(255, 20, 147, 0.6); /* Sombra luminosa al hacer hover */
 }
-
 
 .container {
   display: flex;
@@ -104,26 +107,25 @@ a::before {
 }
 
 button {
-  background-color: #4caf50; 
-  color: #fff; 
-  border: none; 
-  border-radius: 4px; 
-  padding: 0.75rem 1.5rem; 
-  font-size: 1rem; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease, transform 0.2s ease; 
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   margin-top: 1rem;
 }
 
 button:hover {
-  background-color: #45a049; 
-  transform: translateY(-2px); 
+  background-color: #45a049;
+  transform: translateY(-2px);
 }
 
 button:active {
-  transform: translateY(1px); 
+  transform: translateY(1px);
 }
-
 
 @keyframes move {
   0% {
